@@ -1,0 +1,21 @@
+.seat .tOperator {
+  padding: 0 20px; }
+
+.seat__main {
+  margin-top: 20px; }
+
+.seat__tip {
+  height: 26px;
+  padding: 0 10px;
+  background: #fff url("../../icons/seats.svg") 50%/contain no-repeat; }
+
+.seat__graph {
+  background-color: #f7f7f7;
+  height: 500px;
+  overflow-x: scroll; }
+
+.seat__screen {
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  background: transparent url("../../icons/screen.svg") 50%/auto 20px no-repeat; }

@@ -1,0 +1,40 @@
+.imageSlider{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  z-index: 100;
+  &__index{
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+  }
+  &__box{
+    height: 100%;
+    width: 100%;
+    .slick-list{
+      height: 100%;
+    }
+    .slick-track{
+      height: 100%;
+      div{
+        height: 100%;
+      }
+    }
+  }
+  &__item{
+    height: 100%;
+    position: relative;
+  }
+  &__image{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50% , 0);
+  }
+}

@@ -1,0 +1,26 @@
+//单个样式
+
+$black:#000;
+$gray:#777;
+$border:#E4E2E2;
+$active: #ef819e;
+
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-v-center{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@mixin line-ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

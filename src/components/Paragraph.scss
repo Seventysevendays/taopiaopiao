@@ -1,0 +1,16 @@
+.paragraph{
+  position: relative;
+  font-size: 14px;
+  line-height: 28px;
+  &--collapse{
+    overflow: hidden;
+  }
+  &__label{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    color: #6A9ADA;
+    padding-left: 20px;
+    background: linear-gradient(to right , transparent , #fff , #fff)
+  }
+}

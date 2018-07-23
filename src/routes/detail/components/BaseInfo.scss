@@ -1,0 +1,31 @@
+.baseInfo{
+  background-color: sandybrown;
+  display: flex;
+  padding: 10px 20px 0;
+  &__detail{
+    flex: 1;
+  }
+  &__poster{
+    width: 100px;
+    height: 150px;
+    background-size: cover;
+  }
+  &__name{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+    margin: 0 0 8px;
+  }
+  &__subTitle,
+  &__other{
+    color: rgba(255,255,255,0.6)
+  }
+  &__subTitle{
+    margin-bottom: 14px;
+  }
+  &__other{
+    margin-top: 8px;
+  }
+}
