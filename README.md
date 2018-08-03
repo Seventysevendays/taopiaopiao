@@ -61,3 +61,7 @@ React、Create React App
 #### 城市页面
 
 <img src="https://github.com/Seventysevendays/taopiaopiao/blob/master/captures/city.png" width="300"/>
+
+#### 选座
+
+<img src="https://github.com/Seventysevendays/taopiaopiao/blob/master/captures/seat.png" width="300"/>
